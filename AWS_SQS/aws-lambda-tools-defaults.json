@@ -1,0 +1,21 @@
+
+{
+    "region" : "us-east-1",
+    "profile" : "default",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "function-name" : "AWS_SQS",
+    "package-type"  : "Zip",
+    "function-handler" : "AWS_SQS",
+    "function-memory-size" : 256,
+    "function-role"        : "arn:aws:iam::734583569807:role/lambda_exec_AWS_SQS",
+    "function-timeout"     : 10,
+    "function-runtime"     : "dotnet6",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "\"ASPNETCORE_ENVIRONMENT\"=\"Development\"",
+    "image-tag"                : "",
+    "function-description"     : ""
+}
